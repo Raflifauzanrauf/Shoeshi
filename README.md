@@ -1,13 +1,14 @@
-Shoeshi
-Shoeshi is a stylish and modern e-commerce mobile app built with React Native. It offers a seamless shopping experience for browsing, viewing, and purchasing shoes — all within a clean and elegant interface.
+# Shoeshi
 
-🛠 Tech Stack
-React Native (with TypeScript)
+**Shoeshi** is a stylish and modern e-commerce mobile app built with **React Native**.  
+It offers a seamless shopping experience for browsing, viewing, and purchasing shoes — all within a clean and elegant interface.
 
-React Navigation (Stack & Bottom Tabs)
+---
 
-React Native Linear Gradient
+## Tech Stack
 
-Feather Icons
-
-Custom Components
+- React Native (with TypeScript)
+- React Navigation (Stack & Bottom Tabs)
+- React Native Linear Gradient
+- Feather Icons
+- Custom Components
