@@ -9,6 +9,7 @@ export type BottomTabNavigationType = {
   HomeScreen: undefined;
   ProfileScreen: undefined;
   ProductScreen: undefined;
+  CartScreen: undefined;
   DetailScreen: {
     product: {
       id: number;
@@ -26,7 +27,8 @@ const Tab = createBottomTabNavigator<BottomTabNavigationType>();
 const BottomTabNavigation = () => {
   return (
     <Tab.Navigator
-  screenOptions={{
+    initialRouteName="HomeScreen" // ✅ pastikan ini ada
+    screenOptions={{
     headerShown: false,
     tabBarShowLabel: false,
     tabBarStyle: {

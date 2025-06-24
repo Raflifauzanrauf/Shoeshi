@@ -42,13 +42,39 @@ import { BottomTabNavigationType } from '../../navigations/BottomNavigation';
 ];
 const HomeScreen = () => {
   const navigation = useNavigation<NavigationProp<BottomTabNavigationType>>();
+  const cartCount = 3;
 
   return (
     <View style={styles.container}>
       <View style={styles.containerAppbar}>
         <View style={styles.containerAppBarTitle}>
           <Text style={styles.appBarTitle}>Shoesi</Text>
-          <Icon name="shopping-bag" size={18} color="#333" />
+          <TouchableOpacity
+        onPress={() => navigation.navigate('CartScreen')}
+        style={{ position: 'relative', padding: 8 }}
+      >
+        <Icon name="shopping-bag" size={24} color="#333" />
+        {cartCount > 0 && (
+          <View
+            style={{
+              position: 'absolute',
+              top: 2,
+              right: 2,
+              backgroundColor: 'red',
+              borderRadius: 8,
+              paddingHorizontal: 5,
+              paddingVertical: 1,
+              minWidth: 16,
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <Text style={{ color: 'white', fontSize: 10, fontWeight: 'bold' }}>
+              {cartCount}
+            </Text>
+          </View>
+        )}
+      </TouchableOpacity>
         </View>
         <View style={styles.containerSearchAppbar}>
           <View style={styles.containerSeacrh}>

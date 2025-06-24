@@ -133,9 +133,10 @@ const styles = StyleSheet.create({
   },
   infoSection: {
     backgroundColor:'#fff',
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
-    padding: 20,
+    borderTopLeftRadius: 50,
+    borderTopRightRadius: 50,
+    paddingHorizontal: 20,
+    paddingVertical: 30,
   },
   titleRow: {
     flexDirection: 'row',
