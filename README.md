@@ -1,4 +1,4 @@
-Shoeshi
+##Shoeshi
 Shoeshi is a stylish and modern e-commerce mobile app built with React Native. It offers a seamless shopping experience for browsing, viewing, and purchasing shoes with a clean and elegant interface.
 
 Tech Stack
