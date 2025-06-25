@@ -97,7 +97,7 @@ const CartScreen = () => {
         ListFooterComponent={
           <>
             <View style={{ marginTop: 20 }}>
-              <Text style={{ fontSize: 14, fontWeight: '600',marginBottom:10, }}>Location</Text>
+              <Text style={{ fontSize: 14, fontFamily: 'Roboto-SemiBold',marginBottom:10, }}>Location</Text>
                <InfoRow
                 iconName="map-pin"
                 title="Jl. Jatisari E/59, Sumampir"
@@ -106,7 +106,7 @@ const CartScreen = () => {
               />
             </View>
             <View style={{ marginTop: 20 }}>
-              <Text style={{ fontSize: 14, fontWeight: '600',marginBottom:10, }}>Payments</Text>
+              <Text style={{ fontSize: 14, fontFamily: 'Roboto-SemiBold',marginBottom:10, }}>Payments</Text>
                <InfoRow
                 iconName="credit-card"
                 title="Visa **** 1234"
@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
     textAlign:'center'
   },
   checkoutButton: {
-    backgroundColor: '#333',
+    backgroundColor: '#1e1e1e',
     paddingHorizontal: 24,
     paddingVertical: 12,
     borderRadius: 25,
